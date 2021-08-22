@@ -9,9 +9,7 @@ body {
     font-family: 'Open sans', sans-serif;
     font-weight: 300;
 }
-.navbar a, .sec-about p {
-    /*text-align: center;*/
-}
+
 .navbar a {
     font-size: 16px;
 }
@@ -71,7 +69,7 @@ body {
       display:none;
       -webkit-border-radius:60px;
       -moz-border-radius:60px;
-      border-radius:60px
+      border-radius:60px;
       z-index: 999;
   }
   #scroll span {
@@ -99,9 +97,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
-.sec-about a {
-   /* text-decoration: underline;*/
-}
+
 .sec-services h2, .sec-services p {
     font-weight: 300;
     text-align: center;
