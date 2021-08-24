@@ -1,4 +1,3 @@
-/*=Typography=*/
 html {
     font-size: 16px;
     scroll-behavior: smooth;
@@ -57,7 +56,6 @@ a:hover {
     font-weight: 600;
     color: #fff;
     background-size: 600vw 600vw;
-   
     -webkit-background-clip: text;
     animation: slide 8s linear infinite forwards;
   }
@@ -179,7 +177,6 @@ a:hover {
     font-weight: 300;
     text-align: center;
     letter-spacing: 9px;
-    /*text-transform: uppercase;*/
     position: absolute;
     top: 10;
     right: 0;
@@ -191,12 +188,7 @@ a:hover {
     height: 280px;
     color: #fff;
 }
-.darkmode--activated p, .darkmode--activated #services {
-    color: #fff;
-  }
-  .darkmode--activated , .darkmode--activated #services h1 {
-    color: #000;
-  }
+
   #scroll {
       position:fixed;
       right:40px;
@@ -275,19 +267,7 @@ hr {
     max-width: 100%;
 }
 /*Header*/
-.navbar-default {
-    background: #fff;
-}
-.navbar .fa-external-link {
-    vertical-align: top;
-}
-.navbar-default .navbar-nav li:hover {
-    background-color: #0390fc;
-    color: #fff;
-}
-.navbar-default .navbar-nav li a:hover {
-    color: #fff;
-}
+
 /*Main*/
 .sec-main {
     position: relative;
@@ -352,29 +332,7 @@ hr {
     }
 }
 
-/*Testimonials*/
-.sec-testimonials {
-    background: #f9f9f9;
-}
 
-.soc-media-ul {
-    display: flex;
-    justify-content: center;
-}
-.soc-media-ul li:not(:first-child) a {
-    margin-left: 1em;
-}
-.soc-media-ul a {
-    display: block;
-    padding: 0.5em 0.65rem;
-    font-size: 1rem;
-    color: #fff;
-    border-radius: 50%;
-    border: 2px solid;
-}
-.soc-media-ul a:hover, .soc-media-ul a:focus {
-    color: #ad0000;
-}
 .footer-distributed {
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
