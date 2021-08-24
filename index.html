@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Aziz Becha - Where the creativity happens</title>
+    <title>Aziz Becha - Where creativity happens</title>
     <link rel="shortcut icon" href="https://img.icons8.com/color-glass/50/000000/code.png" type="image/x-icon">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 <script>
    /* function addDarkmodeWidget() {
       new Darkmode().showWidget();
@@ -21,51 +25,35 @@
   </script>
 </head>
 <body>
+  <nav class="navbar">
+    <div class="container">
+      <div style="color: #fff;" class="logo"><a style="color: #fff" href="#">Aziz Becha</a></div>
+      <ul class="menu">
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#services" class="menu-btn">Services</a></li>
+        <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <li><a href="#teams" class="menu-btn">Teams</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+  </nav>
     <a href="#" id="scroll" style="display: none;"><span></span></a>
     <div class="wrapper">
-        <header role="header">
-          <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-              <div class="navbar-header">
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" role="button">
-                  <span class="sr-only">Toggle Navigation</span>
-                  
-                  <span class="icon-bar"></span>
-                  
-                  <span class="icon-bar"></span>
-                  
-                  <span class="icon-bar"></span>
-                </button>
-      
-                <a href="#" class="navbar-brand">Aziz Becha</a>
-              </div>
-      
-              <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right js-nav">
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#folio">Portfolio</a></li>
-                  <li><a href="#testimonials">Testimonials</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
-      
         <section id="home" class="sec-main">
          <div class="container">
             <h1 class="main-heading">Aziz Becha</h1>
             <h2 class="slogan">Where creativity happens.</h2>
             <h2 class="social">
-              <i class="fa fa-facebook"></i>
-              <i class="fa fa-github"></i>
-              <i class="fa fa-codepen"></i>
-              <i class="fa fa-stack-overflow"></i>
-              <i class="fa fa-twitter"></i>
-              <i class="fa fa-linkedin"></i>
+              <a href="https://www.facebook.com/aziz.virus05" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://github.com/aziizvirus" target="_blank"><i class="fa fa-github"></i></a>
+              <a href="https://codepen.io/azizvirus" target="_blank"><i class="fa fa-codepen"></i></a>
+              <a href="https://stackoverflow.com/users/16306545/aziz-becha" target="_blank"><i class="fa fa-stack-overflow"></i></a>
+              <a href="https://twitter.com/azizvirus05" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://linkedin.com/in/aziz-becha-810a251a3" target="_blank"><i class="fa fa-linkedin"></i></a>
             </h2>
          </div>
         </section>
@@ -73,162 +61,173 @@
         <section id="about" class="sec-about">
           <div class="container">
             <h1>About me</h1>
-<br><style>
-  .about-section {
-    width: 100%;
-  }
-  
-  .about-text {
-    font-size: 23px;
-    text-align: justify;
-  }
-  
-  .about-pic {
-    margin-top: 0px;
-    margin-bottom: 8px;
-    width: 300px;
-
-  }</style>
-<div id="section-home" class="container-fluid about-section">
+<br>
+<div id="section-home" class="container-fluid">
   <div class="row about-row">
-    <div class="col-xs-4">
-      <img src="images/195586892_1113824682443697_3832618374041753282_n.jpg" class="img-circle img-responsive about-pic">
+    <div class="col-md-4">
+      <img src="images/195586892_1113824682443697_3832618374041753282_n.jpg" style="width:90%;border-radius: 50%;" class="img-responsive about-pic">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-8">
       <h3>Hello there! My name is Aziz Becha. I'm a passionate Full Stack developer based in Tunisia. I love creating Web/mobile apps & solving programming problems. I'm always learning and discovering new stuff/tech and hard-working to focus in my career and improving my skills/knowledge.</h3>
     </div>
   </div>
 </div>
           </div>
         </section>
-        <section style="background-color: #333333;color: #fff" id="skills" class="sec-services">
+        <center>
+          <section style="background-color: #333333;color: #fff" class="services" id="services">
+            <div class="container">
+              <h1>Services</h1>
+              <br>
+              <ul>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <li><a><i class="fa fa-globe"></i></a></li>
+                   <h2>Web</h2>
+                  </div>
+                  <div class="col-sm-4">
+                    <li><a><i class="fa fa-mobile"></i></a></li>
+                    <h2>Mobile</h2>
+                  </div>
+                  <div class="col-sm-4">
+                    <li><a><i class="fa fa-desktop"></i></a></li>
+                    <h2>Software</h2>
+                  </div>
+                </div>
+                
+                
+            </ul>
+            </div>
+          </section>
+        </center>
+        <section style="/*background-color: #333333;color: #fff*/" id="skills" class="sec-services">
           <div class="container">
-            <h1 style="color: #fff">Skills & Tools</h1>
+            <h1>Skills & Tools</h1>
             <br>
             <center>
       
               <div class="row">
-                <div class="col-xs-3">
+                <div class="col">
                   <h1>HTML</h1>
                   <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/html-5--v1.png"/>
                 </div>
-                <div class="col-xs-3">
+                <div class="col">
                   <h1>CSS</h1>
                   <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/css3.png"/>
                 </div>
-                <div class="col-xs-3">
+                <div class="col">
                   <h1>JavaScript</h1>
                   <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/javascript--v2.png"/>
                 </div>
-                <div class="col-xs-3">
+                <div class="col">
                   <h1>TypeScript</h1>
                   <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/typescript.png"/>
                 </div>
               </div>
               <div class="row">
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>jQuery</h1>
-                <img class="img img-responsive" src="https://img.icons8.com/ios/150/ffffff/jquery.png"/>
+                <img class="img img-responsive" src="https://img.icons8.com/ios/150/000000/jquery.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Bootstrap</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/ffffff/bootstrap.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Sass</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/ffffff/sass.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>PHP</h1>
-                <img class="img img-responsive" src="https://img.icons8.com/ios-filled/150/ffffff/php-logo.png"/>
+                <img class="img img-responsive" src="https://img.icons8.com/ios-filled/150/8993be/php-logo.png"/>
               </div>
               </div>
               <div class="row">
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>SQL</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/ios/150/000000/database.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>MySQL</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/ffffff/mysql-logo.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Firebase</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/firebase.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Wordpress</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/wordpress.png"/>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>React</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/61dbfb/react-native.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Babel</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/dusk/150/000000/babel.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Git</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/git.png"/> 
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Github</h1>
-                <img class="img img-responsive" src="https://img.icons8.com/material-outlined/150/ffffff/github.png"/>
+                <img class="img img-responsive" src="https://img.icons8.com/material-outlined/150/000000/github.png"/>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Linux</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/linux--v1.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>C++</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/c-plus-plus-logo.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Python</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/python--v1.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Figma</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/figma--v1.png"/>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Adobe XD</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/adobe-xd--v1.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Adobe PS</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/adobe-photoshop--v1.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Font Awesome</h1>
-                <img class="img img-responsive" src="https://img.icons8.com/windows/150/ffffff/font-awesome-flag.png"/>
+                <img class="img img-responsive" src="https://img.icons8.com/windows/150/228be6/font-awesome-flag.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Arduino</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/arduino.png"/>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>NodeJS</h1>
-                <img class="img img-responsive" src="https://img.icons8.com/windows/150/ffffff/nodejs.png"/>
+                <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/nodejs.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>Markdown</h1>
-                <img class="img img-responsive" src="https://img.icons8.com/ios/150/ffffff/markdown--v2.png"/>
+                <img class="img img-responsive" src="https://img.icons8.com/ios/150/000000/markdown--v2.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>React Native</h1>
                 <img class="img img-responsive" src="https://img.icons8.com/color/150/61dbfb/react-native.png"/>
               </div>
-              <div class="col-xs-3">
+              <div class="col">
                 <h1>JSON</h1>
                 <img class="img img-responsive" style="width: 150px" src="https://cdn.worldvectorlogo.com/logos/json.svg"/>
               </div>
@@ -238,34 +237,24 @@
           </div>
         </section>
         
-        <section id="services" class="sec-services">
+        <section style="background-color: #333333;color:#fff" id="services" class="sec-services">
           <div class="container">
             <h1>WHY CHOOSE ME</h1>
-      
             <hr />
-      
-            <div class="row">
+            <div style="font-family: 'Montserrat', sans-serif;" class="row">
               <div class="col-sm-4">
                 <i class="fa fa-4x fa-paint-brush"></i>
-      
                 <h2 class="h3">Beautiful Design</h2>
-      
                 <p>Every website is beautiful, unique and tailored to suit your needs and requirements.</p>
               </div>
-      
               <div class="col-sm-4">
                 <i class="fa fa-4x fa-code"></i>
-      
                 <h2 class="h3">Clean Code</h2>
-      
                 <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
               </div>
-      
               <div class="col-sm-4">
                 <i class="fa fa-4x fa-tablet"></i>
-      
                 <h2 class="h3">Always Responsive</h2>
-      
                 <p>All websites are responsive. They will look great on desktop, tablets and mobile phones too.</p>
               </div>
             </div>
@@ -275,21 +264,75 @@
         <section id="folio" class="sec-folio">
           <div class="container">
             <h1>Previous Work</h1>
-      
-            <hr />
+            <br>
+            <div style="font-family: Montserrat, sans-serif;" class="row">
+              <div class="col-sm-6 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title font-weight-normal">Recetti</h3>
+                    <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/recetti.PNG" alt="" srcset="">
+                    <p class="card-text">Recetti is a tunisian platform made to share various recipes & food between people.</p>
+                    <a href="" class="btn btn-primary">See project</a>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="col-sm-6 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title font-weight-normal">Casino</h3>
+                    <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/casino-1.PNG" alt="" srcset="">
+                    <p class="card-text">A betting website that contains various game categories (Poker / Slots / Roulette / BlackJack ...)</p>
+                    <a href="" class="btn btn-primary">See project</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title font-weight-normal">Grocery Software</h3>
+                    <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/grocery.PNG" alt="" srcset="">
+                    <p class="card-text">A grocery management software able to add/remove/search/change your store products In order to facilitate sales.</p>
+                    <a href="" class="btn btn-primary">See project</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title font-weight-normal">Carte TV Tunisie</h3>
+                    <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/carte-tv.PNG" alt="" srcset="">
+                    <p class="card-text">A E-Commerce website that sells various electronic parts.</p>
+                    <a href="" class="btn btn-primary">See project</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title font-weight-normal">Forum</h3>
+                    <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/forum-tv.PNG" alt="" srcset="">
+                    <p class="card-text">A forum website made for sharing knowledge & offering questions and answers</p>
+                    <a href="" class="btn btn-primary">See project</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </section>
-      
-        <section id="testimonials" class="sec-testimonials">
+    
+        <!-- 
+          <section id="testimonials" class="sec-testimonials">
           <div class="container">
             <h1>Clients said</h1>
-      
             <hr />
-      
             <div class="row">
               <div class="col-sm-4">
                 <p class="text-center">"Alex did great job when designing our website. It was pleasure to work with him and I'm sure we will hire him again."</p>
-      
                 <p class="text-right">&mdash; Marc Andressen</p>
               </div>
       
@@ -307,68 +350,55 @@
             </div>
           </div>
         </section>
+         -->
       
         <section id="contact" class="sec-contact">
           <div class="container">
-            <h1>Hire me</h1>
-      
-            <hr />
-      
-            <div class="row">
-              <div class="col-sm-4 col-sm-offset-4">
-                <form class="center-block" action="#" method="post">
-                  <div class="form-group">
-                    <label class="sr-only" for="inputName">Full name</label>
-      
-                    <input id="inputName" class="form-control" type="text" required />
-                  </div>
-      
-                  <div class="form-group">
-                    <label for="inputMail" class="sr-only">Email Address</label>
-      
-                    <input id="inputMail" class="form-control" type="email" required />
-                  </div>
-      
-                  <div class="form-group">
-                    <label for="inputMessage" class="sr-only">Your Message</label>
-      
-                    <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8" required></textarea>
-                  </div>
-      
-                  <div class="form-group">
-                    <button class="btn btn-default center-block" type="submit" value="Hire me">Hire me</button>
-                  </div>
-                </form>
+            <h1>Contact</h1>
+            <center>
+              <div class="row">
+                <div class="col-sm-3">
+                   <h2><i class="fa fa-envelope"></i></h2>
+                   <h4>aziz07becha@gmail.com</h4>
+                </div>
+                <div class="col-sm-3">
+                  <h2><i class="fa fa-phone"></i></h2>
+                  <h4>+216 52829111</h4>
+               </div>
+               <div class="col-sm-3">
+                <h2><i class="fa fa-facebook"></i></h2>
+                <h4>aziz.virus05</h4>
+             </div>
+             <div class="col-sm-3">
+              <h2><i class="fa fa-map-marker"></i></h2>
+              <h4>aziz07becha@gmail.com</h4>
+           </div>
               </div>
-            </div>
+            </center>
           </div>
         </section>
       
-        <footer id="footer">
-          <div class="container">
-            <ul class="soc-media-ul">
-              <li>
-                <a href="https://twitter.com/AlexDevero" class="fa fa-twitter" target="_blank"></a>
-              </li>
-      
-              <li>
-                <a href="https://plus.google.com/u/0/+AlexDevero" class="fa fa-google-plus" target="_blank"></a>
-              </li>
-      
-              <li>
-                <a href="https://cz.linkedin.com/pub/alex-devero/38/262/70/" class="fa fa-linkedin" target="_blank"></a>
-              </li>
-      
-              <li>
-                <a href="https://www.behance.net/d3v3r0" class="fa fa-behance" target="_blank"></a>
-              </li>
-      
-              <li>
-                <a href="mailto:example@mail.com" class="fa fa-envelope"></a>
-              </li>
-            </ul>
-          </div>
-        </footer>
+        <footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="https://www.facebook.com/aziz.virus05" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.twitter.com/azizvirus05" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://linkedin.com/in/aziz-becha-810a251a3" target="_blank"><i class="fa fa-linkedin"></i></a>
+				<a href="https://github.com/azizvirus" target="_blank"><i class="fa fa-github"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="#">Aziz Becha</a>
+				</p>
+
+				<h6 class="text-light">Made with a lot of <i class="fa fa-coffee text-light"></i> & <i class="fa fa-heart text-danger"></i></h6>
+			</div>
+
+		</footer>
       </div>
 </body>
 </html>
