@@ -3,4 +3,4 @@
 
 ## To-Do
 - Add clients feedbacks
-- Switch to React
+- Add Meta tags for SEO Optimization
