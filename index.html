@@ -1,407 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Aziz Becha - Where creativity happens</title>
-  <link rel="shortcut icon" href="https://img.icons8.com/color-glass/50/000000/code.png" type="image/x-icon">
-  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Aziz Becha</title>
 </head>
-<body style="overflow-x: hidden;">
-  <nav class="navbar">
-    <div class="container">
-      <div style="color: #fff;" class="logo"><a style="color: #fff" href="#">Aziz Becha</a></div>
-      <ul class="menu">
-        <li><a href="#home" class="menu-btn">Home</a></li>
-        <li><a href="#about" class="menu-btn">About</a></li>
-        <li><a href="#services" class="menu-btn">Services</a></li>
-        <li><a href="#skills" class="menu-btn">Skills</a></li>
-        <li><a href="#why" class="menu-btn">Why Choose Me</a></li>
-        <li><a href="#work" class="menu-btn">Work</a></li>
-        <li><a href="#contact" class="menu-btn">Contact</a></li>
-      </ul>
-      <div class="menu-btn">
-        <i class="fa fa-bars"></i>
-      </div>
+<body>
+    <div class="container mt-5">
+        <img src="me.jpg" alt="" style="width: 20%;height: 20%" class="rounded-circle shadow mb-3 mx-auto justify-content-center align-items-center d-flex">
+        <div class="about mb-5">
+            <h3>About</h3>
+            <h5 class="fw-normal">
+                My name is Aziz Becha, 17 y.o geek, nerd & Elon Musk superfan from Tunisia. I work as a robotics teacher and Full-Stack JS Developer. I love creating apps, being creative, learning new tech.
+                <br />I love also reading books about soft-skills & entrepreneurship.
+            </h5>
+        </div>
+
+        <div class="tech mb-5">
+            <h3>Tech</h3>
+            <h5 class="fw-normal">
+                I work with a lot of well-known tools & technologies like:<br /><br />
+                <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">React</a><br />
+                <a href="https://reactnative.org" target="_blank" rel="noopener noreferrer">React Native</a><br />
+                <a href="https://firebase.google.com" target="_blank" rel="noopener noreferrer">Firebase</a><br />
+                <a href="https://typescriptlang.org" target="_blank" rel="noopener noreferrer">Typescript</a><br />
+                <a href="https://javascript.com" target="_blank" rel="noopener noreferrer">Javascript</a><br />
+                <a href="https://getbootstrap.org" target="_blank" rel="noopener noreferrer">Bootstrap</a><br />
+            </h5>
+        </div>
+
+        <div class="contact mb-5">
+            <h3>Contact</h3>
+            <h5 class="fw-normal">
+                I&apos;m available everywhere, you can find me mostly on:<br /><br />
+                <a href="https://github.com/azizbecha" target="_blank" rel="noopener noreferrer">GitHub</a><br />
+                <a href="mailto:aziz07becha@gmail.com" target="_blank" rel="noopener noreferrer">aziz07becha@gmail.com</a><br />
+                <a href="https://javascript.com" target="_blank" rel="noopener noreferrer">+216 52829111</a><br />
+                <a href="https://www.linkedin.com/in/azizbecha/" target="_blank" rel="noopener noreferrer">Linkedin</a><br />
+                <a href="https://facebook.com/azizbechaa" target="_blank" rel="noopener noreferrer">Facebook</a><br />
+                <a href="https://twitter.com/azizvirus05" target="_blank" rel="noopener noreferrer">Twitter</a><br /><br />
+                I hate instagram ...
+            </h5>
+        </div>
+
+        <div class="other mb-5">
+            <h3>Other</h3>
+            <h5 class="fw-normal">
+                Best quote: <span class="fw-bold">Every man I meet is my superior in some way. In that, I learn of him</span><br />
+                My idol: <span class="fw-bold">Elon Musk 🐐</span>
+            </h5>
+        </div>
     </div>
-  </nav>
-
-  <!-- Scroll to top button -->
-  <a id="return-to-top"><i class="fa fa-arrow-up"></i></a>
-
-  <section id="home" class="sec-main">
-    <div class="container">
-      <h1 class="main-heading">Aziz Becha</h1>
-      <h2 class="slogan">Where creativity happens.</h2>
-      <h2 class="social">
-        <a href="https://www.facebook.com/azizbechaa" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a href="https://github.com/azizbecha" target="_blank"><i class="fa fa-github"></i></a>
-        <a href="https://codepen.io/azizvirus" target="_blank"><i class="fa fa-codepen"></i></a>
-        <a href="https://stackoverflow.com/users/16306545/aziz-becha" target="_blank"><i class="fa fa-stack-overflow"></i></a>
-        <a href="https://twitter.com/azizvirus05" target="_blank"><i class="fa fa-twitter"></i></a>
-        <a href="https://linkedin.com/in/aziz-becha-810a251a3" target="_blank"><i class="fa fa-linkedin"></i></a>
-      </h2>
-    </div>
-  </section>
-
-  <section id="about" class="sec-about">
-    <div class="container">
-      <h1>About me</h1>
-      <br>
-      <div class="container-fluid">
-        <div class="row about-row">
-          <div data-aos="fade-in" class="col-md-4">
-            <img src="images/195586892_1113824682443697_3832618374041753282_n.jpg" style="width:90%;border-radius: 50%;" class="img-responsive about-pic mb-4">
-          </div>
-          <div data-aos="fade-out" class="col-md-8">
-            <h3>Hello there! My name is Aziz Becha. I'm a passionate Full Stack developer based in Tunisia. I love creating Web/mobile apps & solving programming problems. I'm always learning and discovering new stuff/tech and hard-working to focus in my career and improving my skills/knowledge.</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <center>
-    <section style="background-color: #333333;color: #fff" class="services" id="services">
-      <div class="container">
-        <h1>Services</h1>
-        <br>
-        <ul>
-          <div class="row">
-            <div data-aos="zoom-in" class="col-sm-4">
-              <li><a><i class="fa fa-globe"></i></a></li>
-              <h2>Web</h2>
-            </div>
-            <div data-aos="zoom-in" class="col-sm-4">
-              <li><a><i class="fa fa-mobile"></i></a></li>
-              <h2>Mobile</h2>
-            </div>
-            <div data-aos="zoom-in" class="col-sm-4">
-              <li><a><i class="fa fa-desktop"></i></a></li>
-              <h2>Software</h2>
-            </div>
-          </div>
-        </ul>
-      </div>
-    </section>
-  </center>
-
-  <!-- Skills and tools -->
-  <section id="skills" class="sec-services">
-    <div class="container">
-      <h1>Skills & Tools</h1>
-      <br>
-      <center>
-        <div class="row">
-          <div data-aos="zoom-out" class="col">
-            <h1>HTML</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/html-5--v1.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>CSS</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/css3.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>JavaScript</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/javascript--v2.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>TypeScript</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/typescript.png"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div data-aos="zoom-out" class="col">
-            <h1>jQuery</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/ios/150/000000/jquery.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Bootstrap</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/ffffff/bootstrap.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Sass</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/ffffff/sass.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>PHP</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/ios-filled/150/8993be/php-logo.png"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div data-aos="zoom-out" class="col">
-            <h1>SQL</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/ios/150/000000/database.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>MySQL</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/ffffff/mysql-logo.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Firebase</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/firebase.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Wordpress</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/wordpress.png"/>
-          </div>
-        </div>
-        
-        <div class="row">
-          <div class="col">
-            <h1>React</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/61dbfb/react-native.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Babel</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/dusk/150/000000/babel.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Git</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/git.png"/> 
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Github</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/material-outlined/150/000000/github.png"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div data-aos="zoom-out" class="col">
-            <h1>Linux</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/linux--v1.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>C++</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/c-plus-plus-logo.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Python</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/python--v1.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Figma</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/figma--v1.png"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div data-aos="zoom-out" class="col">
-            <h1>Adobe XD</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/adobe-xd--v1.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Adobe PS</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/adobe-photoshop--v1.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Font Awesome</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/windows/150/228be6/font-awesome-flag.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Arduino</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/arduino.png"/>
-          </div>
-        </div>
-
-        <div class="row">
-          <div data-aos="zoom-out" class="col">
-            <h1>NodeJS</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/000000/nodejs.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>Markdown</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/ios/150/000000/markdown--v2.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>React Native</h1>
-            <img class="img img-responsive" src="https://img.icons8.com/color/150/61dbfb/react-native.png"/>
-          </div>
-          <div data-aos="zoom-out" class="col">
-            <h1>JSON</h1>
-            <img class="img img-responsive" style="width: 150px" src="https://cdn.worldvectorlogo.com/logos/json.svg"/>
-          </div>
-        </div>
-
-      </div>
-    </center>
-  </section>
-        
-  <section style="background-color: #333333;color:#fff" id="why" class="sec-services">
-    <div class="container">
-      <h1>WHY CHOOSE ME</h1>
-      <hr />
-
-      <div style="font-family: 'Montserrat', sans-serif;" class="row">
-        <div data-aos="zoom-out" class="col-sm-4">
-          <i class="fa fa-4x fa-paint-brush"></i>
-          <h2 class="h3">Beautiful Design</h2>
-          <p>Every website is beautiful, unique and tailored to suit your needs and requirements.</p>
-        </div>
-
-        <div data-aos="zoom-out" class="col-sm-4">
-          <i class="fa fa-4x fa-code"></i>
-          <h2 class="h3">Clean Code</h2>
-          <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
-        </div>
-
-        <div data-aos="zoom-out" class="col-sm-4">
-          <i class="fa fa-4x fa-tablet"></i>
-          <h2 class="h3">Always Responsive</h2>
-          <p>All websites are responsive. They will look great on desktop, tablets and mobile phones too.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  
-  <!-- Work -->
-  <section id="work" class="sec-folio">
-    <div class="container">
-      <h1>Previous Work</h1>
-      <br>
-      <div style="font-family: Montserrat, sans-serif;" class="row">
-
-        <div data-aos="zoom-in" class="col-sm-6 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title font-weight-normal">Recetti</h3>
-              <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/recetti.PNG" alt="" srcset="">
-              <p class="card-text">Recetti is a tunisian platform made to share various recipes & food between people.</p>
-              <a href="" class="btn btn-primary">See project</a>
-            </div>
-          </div>
-        </div>
-        
-        <div data-aos="zoom-in" class="col-sm-6 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title font-weight-normal">Casino</h3>
-              <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/casino-1.PNG" alt="" srcset="">
-              <p class="card-text">A betting website that contains various game categories (Poker / Slots / Roulette / BlackJack ...)</p>
-              <a href="" class="btn btn-primary">See project</a>
-            </div>
-          </div>
-        </div>
-
-        <div data-aos="zoom-in" class="col-sm-6 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title font-weight-normal">Grocery Software</h3>
-              <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/grocery.PNG" alt="" srcset="">
-              <p class="card-text">A grocery management software able to add/remove/search/change your store products In order to facilitate sales.</p>
-              <a href="" class="btn btn-primary">See project</a>
-            </div>
-          </div>
-        </div>
-
-        <div data-aos="zoom-in" class="col-sm-6 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title font-weight-normal">Carte TV Tunisie</h3>
-              <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/carte-tv.PNG" alt="" srcset="">
-              <p class="card-text">A E-Commerce website that sells various electronic parts.</p>
-              <a href="" class="btn btn-primary">See project</a>
-            </div>
-          </div>
-        </div>
-
-        <div data-aos="zoom-in" class="col-sm-6 mb-4">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title font-weight-normal">Forum</h3>
-              <img style="width: 100%;" class="img img-responsive img-fluid mb-3" src="images/forum-tv.PNG" alt="" srcset="">
-              <p class="card-text">A forum website made for sharing knowledge & offering questions and answers</p>
-              <a href="" class="btn btn-primary">See project</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-    
-  <!-- 
-    <section id="testimonials" class="sec-testimonials">
-      <div class="container">
-        <h1>Clients said</h1>
-        <hr />
-        <div class="row">
-          <div class="col-sm-4">
-            <p class="text-center">"Alex did great job when designing our website. It was pleasure to work with him and I'm sure we will hire him again."</p>
-            <p class="text-right">&mdash; Marc Andressen</p>
-          </div>
-
-          <div class="col-sm-4">
-            <p class="text-center">"Alex proved to be truly creative designer who is able to create just stunning design I immediately fell in love with!"</p>
-            <p class="text-right">&mdash; Emily Cooper</p>
-          </div>
-
-          <div class="col-sm-4">
-            <p class="text-center">"I have worked with several different people and it always seemed like a pain—luckily I found Alex Devero. Thank you Alex!"</p>
-            <p class="text-right">&mdash; Scott Grubber</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  -->
-
-  <section id="contact" class="sec-contact">
-    <div class="container">
-      <h1>Contact</h1>
-      <br>
-      <center>
-        <div class="row">
-          <div class="col">
-            <h2><i class="fa fa-envelope"></i></h2>
-            <h5>aziz07becha@gmail.com</h5>
-          </div>
-          <div class="col">
-            <h2><i class="fa fa-phone"></i></h2>
-            <h5>+216 52829111</h5>
-          </div>
-          <div class="col">
-            <h2><i class="fa fa-facebook"></i></h2>
-            <h5>azizbechaa</h5>
-          </div>
-          <div class="col">
-            <h2><i class="fa fa-map-marker"></i></h2>
-            <h5>aziz07becha@gmail.com</h5>
-          </div>
-        </div>
-      </center>
-    </div>
-  </section>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
 </body>
-<footer class="footer-distributed">
-  <div class="footer-right">
-    <a href="https://www.facebook.com/aziz.virus05" target="_blank"><i class="fa fa-facebook"></i></a>
-    <a href="https://www.twitter.com/azizvirus05" target="_blank"><i class="fa fa-twitter"></i></a>
-    <a href="https://linkedin.com/in/aziz-becha-810a251a3" target="_blank"><i class="fa fa-linkedin"></i></a>
-    <a href="https://github.com/azizvirus" target="_blank"><i class="fa fa-github"></i></a>
-  </div>
-
-  <div class="footer-left">
-    <p class="footer-links">
-      <a class="link-1" href="#">Aziz Becha</a>
-    </p>
-    <h6 class="text-light">Made with a lot of <i class="fa fa-coffee text-light"></i> & <i class="fa fa-heart text-danger"></i></h6>
-  </div>
-</footer>
 </html>
